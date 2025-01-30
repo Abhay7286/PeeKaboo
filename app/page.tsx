@@ -3,7 +3,6 @@ import React, { useState, lazy, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { searchAnimations } from "app/styles/animation/search-animation";
 import "app/styles/page.css";
-import RainbowCursor from "app/components/ui/RainbowCursor";
 
 // Lazy loaded components
 const ImageResult = lazy(() => import("app/components/ui/ImageResult"));
