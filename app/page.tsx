@@ -33,15 +33,12 @@ const Page: React.FC = () => {
 
   return (
     <div className="search-container">
-      {/* Rainbow Cursor */}
-      <RainbowCursor blur={10} pulseSpeed={0.05} pulseMin={0.7} pulseMax={1.3} />
-
       {/* Logo */}
       <motion.h1 
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-center text-5xl font-bold text-gray-800 mb-8 tracking-wide"
+        className="text-center text-5xl font-bold text-white mb-8 tracking-wide"
       >
         Peekaboo
       </motion.h1>

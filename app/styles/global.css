@@ -11,6 +11,10 @@
   --foreground: #ffffff;
 }
 
+body{
+  overflow-x: hidden 
+}
+
 @layer base {
   body {
     @apply bg-[var(--background)] text-[var(--foreground)];
